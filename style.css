@@ -4,40 +4,51 @@
 }
 
 body {
- display: inline-block;
  margin: 0;
 }
-
-.header {
-  position: absolute;
+aside {
+	position: absolute;
+	height: 100%;
+	width: 15%;
+	background-color: aquamarine;
+}
+header {
+  display: inline-block;
   margin: 0;
+  margin-left: 15%;
 }
 
-.header, img {
-  position: relative;
+img {
+  position: fixed;
+  top: 0;
   right: 0;
-  width: 15%;
+  width: 20%;
   border: 3px dotted yellow;
-  box-shadow:4px 4px 0px yellow;
+  box-shadow: 4px 4px 0px yellow;
   }
 a {
 	text-decoration: none;
 }
 h1 {
   font-family: 'Coiny', cursive;
-  font-size: 40px;
-  text-align: center;
-  margin: 0;
+  text-transform: capitalize;
+  font-size: 150%;
 }
-.header, p {
+header, p {
   font-family: helvetica;
   font-weight: lighter;
   text-align: center;
 }
-
+div:nth-child(2,3) {
+	text-align: center;
+}
 h2 {
   text-decoration: underline;
   font-size: 40px;
+}
+main {
+	position: absolute;
+	margin: 15%;
 }
 ol li {
   list-style-type: none;
