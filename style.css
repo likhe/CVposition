@@ -3,25 +3,28 @@
   src: url('https://fonts.googleapis.com/css?family=Coiny');
 }
 
-body {
+* {
  margin: 0;
+ display: inline-block;
+}
+.wrapper {
+  position: absolute;
 }
 aside {
-	position: absolute;
+  position: relative;
 	height: 100%;
 	width: 15%;
 	background-color: aquamarine;
 }
-header {
-  display: inline-block;
+#header {
+  position: absolute;
   margin: 0;
-  margin-left: 15%;
 }
 
 img {
-  position: fixed;
+  position: relative;
   top: 0;
-  right: 0;
+  left: 0;
   width: 20%;
   border: 3px dotted yellow;
   box-shadow: 4px 4px 0px yellow;
@@ -39,17 +42,17 @@ header, p {
   font-weight: lighter;
   text-align: center;
 }
-div:nth-child(2,3) {
-	text-align: center;
+
+main {
+	position: relative;
+	margin: 15%;
 }
+section {}
+ol li {
+  list-style-type: none;
+}
+
 h2 {
   text-decoration: underline;
   font-size: 40px;
-}
-main {
-	position: absolute;
-	margin: 15%;
-}
-ol li {
-  list-style-type: none;
 }
