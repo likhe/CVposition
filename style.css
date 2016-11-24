@@ -5,26 +5,23 @@
 
 * {
  margin: 0;
- display: inline-block;
 }
 .wrapper {
-  position: absolute;
+display: flex;
 }
 aside {
-  position: relative;
 	height: 100%;
 	width: 15%;
 	background-color: aquamarine;
 }
 #header {
-  position: absolute;
-  margin: 0;
+  display: flex;
 }
 
+.sonic  {
+  display: flex;
+}
 img {
-  position: relative;
-  top: 0;
-  left: 0;
   width: 20%;
   border: 3px dotted yellow;
   box-shadow: 4px 4px 0px yellow;
@@ -37,22 +34,27 @@ h1 {
   text-transform: capitalize;
   font-size: 150%;
 }
-header, p {
+#header, p {
   font-family: helvetica;
   font-weight: lighter;
   text-align: center;
 }
 
 main {
-	position: relative;
-	margin: 15%;
+display: flex;
+justify-content: space-around;
+margin: 15%;
 }
-section {}
+section {
+  align-self: stretch;
+}
 ol li {
   list-style-type: none;
 }
 
 h2 {
   text-decoration: underline;
+  text-align: center;
+  margin: 20px;
   font-size: 40px;
 }
