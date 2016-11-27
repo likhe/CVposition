@@ -3,7 +3,7 @@
   src: url('https://fonts.googleapis.com/css?family=Coiny');
 }
 
-* {
+body {
  margin: 0;
 }
 .wrapper {
@@ -15,14 +15,17 @@ aside {
 	background-color: aquamarine;
 }
 #header {
-  display: flex;
+  display: block;
 }
-
-.sonic  {
-  display: flex;
+.sonic {
+  position: absolute;
+  width: 100%;
 }
 img {
-  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
   border: 3px dotted yellow;
   box-shadow: 4px 4px 0px yellow;
   }
